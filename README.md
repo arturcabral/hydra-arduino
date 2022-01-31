@@ -14,11 +14,6 @@ Estou documentando neste repositório as minhas tentativas em criar uma interfac
 ## Instruções mastigadas
   1. Grave o arquivo arduino-sketch.ino no arduino (Irá ler somente a porta A0)
    
-   ```
-   git clone https://github.com/eduardoboucas/eduardoboucas.github.io.git eduardoboucas.com
-   cd eduardoboucas.com
-   ```
-
 1. Com o arduino espetado no computador execute o serial2wbsckt.py 
 
   ```
