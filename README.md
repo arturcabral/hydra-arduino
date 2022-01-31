@@ -32,4 +32,6 @@ Estou documentando neste repositório as minhas tentativas em criar uma interfac
     ```
   osc(10, 0.1, ()=>vc[0]).out()
   ```
-  
+  ## Referências
+  * <https://github.com/ojack/hydra-synth>
+  * <https://github.com/ojack/hydra/issues/28>
