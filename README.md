@@ -4,7 +4,7 @@ Durante uma oficina de Hydra, surgiu a pergunta: - Como pegar dados do Arduino e
 
 Estou documentando neste repositório as minhas tentativas em criar uma interface entre o arduino e a engine de síntese de vídeo Hydra-Synth.
 
-### Solução 1 [Gambiarra]
+### Solução I [Gambiarra]
 * Arduino publica leitura porta(A0) na serial.
 * Script Python publica valor do serial via websocket
 * Javascript recebe o valor trata e armazena na variável vc [valor controle]
