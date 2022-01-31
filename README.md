@@ -1,5 +1,7 @@
 # hydra-arduino
 
+![Teste POT](/pot-test.gif)
+
 Durante uma oficina de Hydra, surgiu a pergunta: - Como pegar dados do Arduino e passar como parâmetro no Hydra?
 
 Estou documentando neste repositório as minhas tentativas em criar uma interface entre o arduino e a engine de síntese de vídeo Hydra-Synth.
