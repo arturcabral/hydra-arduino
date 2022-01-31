@@ -12,6 +12,6 @@ socket.addEventListener('message', function (event) {
   let [index, val] = event.data.split(",");
   
   //printa variável
-  //console.log(index, val)
+  console.log(index, val)
   vc[index] = parseFloat(val);
 });
