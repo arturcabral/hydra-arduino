@@ -28,8 +28,9 @@ Estou documentando neste repositório as minhas tentativas em criar uma interfac
 * Neste exemplo a porta lida no Arduino é somente a **A0**.
 * O Script serial2wbsckt.oy requer o Python 3 instalado e as libs _PySerial, websockets_
 * A variável que recebe o valor do Arduino é a _var vc_. 
-* No exemplo atribui ao offset no OSC.
-    ```
+* As instruções para o _hydra_ estão em _script-hydra.js_.
+* No exemplo, atribuí a variável ao offset no OSC.
+  ```
   osc(10, 0.1, ()=>vc[0]).out()
   ```
   ## Referências
