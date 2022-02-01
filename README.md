@@ -2,9 +2,9 @@
 
 ![Teste POT](/pot-test.gif)
 
-Durante uma oficina de Hydra, surgiu a pergunta: - Como pegar dados do Arduino e passar como parâmetro no Hydra?
+Durante uma oficina de Hydra, surgiu a pergunta: - Como pegar dados do Arduino e passar como parâmetro no Hydra? 🤔
 
-Estou documentando neste repositório as minhas tentativas em criar uma interface entre o arduino e a engine de síntese de vídeo Hydra-Synth.
+Estou documentando neste repositório as minhas tentativas em criar uma interface entre o arduino e a engine de síntese de vídeo [Hydra-Synth](https://github.com/ojack/hydra-synth).
 
 ### Gambiarra I [Em andamento]
 * Arduino publica leitura porta(A0) na serial.
@@ -33,6 +33,8 @@ Estou documentando neste repositório as minhas tentativas em criar uma interfac
   ```
   osc(10, 0.1, ()=>vc[0]).out()
   ```
+* No repositório há um sketch do [processing](https://processing.org/), originalmente desenvolvido pelo [@micuat](https://github.com/micuat), para testar o a comunicação via websocket (Porta 8025)
+
   ## Referências
   * <https://github.com/ojack/hydra-synth>
   * <https://github.com/ojack/hydra/issues/28>
